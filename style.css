@@ -135,8 +135,47 @@ ul, li, a {
     font-style:normal; 
 }
 
-.ctabox {
+.ctadiv {
+    margin: 0 100px;
+    padding: 100px; 
+}
 
+.ctabox {
+    background-color: #3882f6;
+    max-height: 10px;  
+    display: flex;
+    align-items: center; 
+    padding: 75px;
+    justify-content: space-between; 
+    border-radius: 10px; 
+}
+
+.ctatext {
+    justify-content: flex-start; 
+}
+
+.ctatext h2 {
+    color:#e5e7eb;
+    font-size: 24px; 
+    display: flex; 
+    justify-content: flex-start;
+    padding: 0; 
+    margin: 0; 
+}
+
+.ctatext p {
+    color: #e5e7eb;
+    margin-top: 0; 
+}
+
+.ctabox button {
+    color:#e5e7eb;
+    font-size: 24px; 
+    border: 5px solid #e5e7eb; 
+    background-color: #3882f6;
+    height: 50px; 
+    width: 150px; 
+    border-radius: 10px;
 }
 
 footer {
