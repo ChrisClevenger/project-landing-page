@@ -1,0 +1,149 @@
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 36px; 
+    font-weight: 900;
+    color: #1f2937;
+    justify-content: center;
+    text-align: center; 
+    margin: 50px 0;  
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1f2937;
+    margin: 0; 
+    padding: 0 100px; 
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px; 
+
+}
+
+ul, li, a {
+    list-style-type: none; 
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 32px;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding: 50px 100px; 
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center; 
+    gap: 100px;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900; 
+    color: #f9faf8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-size: 20px; 
+    font-weight: 600; 
+    height: 50px; 
+    width: 150px;
+    border-radius: 10px; 
+}
+
+.hero img {
+    width: 525px;
+    height: 240px; 
+}
+
+.information {
+    display: flex;
+    margin: 0 200px 100px 200px;  
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.information, .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card {
+    flex-direction: column;
+    flex: 1; 
+}
+
+.card img {
+    height: 200px; 
+    width: auto; 
+    border: 5px solid #3882f6; 
+    border-radius: 10px; 
+}
+
+.card figcaption {
+    max-width: 190px; 
+    text-align: center;
+}
+
+
+.quotebox {
+    background-color: #e5e7eb;
+    color: #1f2937; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.quotecontainer {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px; 
+    font-weight: lighter; 
+    padding: 100px;
+    margin: 0 100px; 
+}
+
+.quotecontainer small {
+    align-self: flex-end; 
+    font-size: 18px; 
+    font-weight: 600;
+    font-style:normal; 
+}
+
+.ctabox {
+
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex; 
+    justify-content: center;
+    padding: 20px; 
+    color: #e5e7eb;
+
+}
